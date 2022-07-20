@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet"  href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+        <!------about us content------>
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are World's Leading University</h1><br>
+                    <h3> A Pioneer in Skill Integrated Higher Education</h3>
+                    <p>Centurion University is duly recognized as a pioneer is ‘Skill Integrated Higher Education”. 
+                        Its unique model lays specific emphasis on creating sustainable livelihoods on a national scale in challenging geographies through education that results in employability and sparks entrepreneurship. 
+                        This model has been recognized by multiple Governments (Central and State), International Organizations such as UNESCO and the World Bank as well as Policy Think-tanks such as the Niti Ayog. <br><br>
+                        Recently, Centurion University’s School of Vocational Education and Training has been recognized as a Center of Excellence by Ministry of Skill Development and Entrepreneurship, Government of India. 
+                        It is the only University in India to be recognized as such.
+                        We have continually strived to be a best in class human resource development hub that builds employable, enterprising and society centric youth through industry relevant education, skill development, new ventures, production, and technology development.<br><br>
+                        Every year Centurion University, Bhubaneswar admission 
+                        are conducted for the students on the basis of cut off 
+                        declared by Centurion University Bhubaneswar through ENTRANCE TEST. 
+                        At Shiksha.com you can find Centurion University Bhubaneswar 2022 cut 
+                        offs, for all 83 courses offered by the college. </p>
+                       <a href="contact.html" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/about.jpg">
+                </div>
+            </div>
+        </section>
+         <!-------Footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Centurion University of Technology and Management (CUTM),
+           Bhubaneswar is the first Multi-Sector Private State University<br> 
+           in Odisha established by Odisha Act 4 of 2010.</p>
+        <div class="icons">
+            <ul>
+                <li><a href="https://www.facebook.com/login/" class="facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/i/flow/login" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/accounts/login/" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+<!---------javaScript for Toggle Menu------->
+       
+       <script>
+
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+            navLinks.style.right = "0";
+         }
+         function hideMenu(){
+            navLinks.style.right = "-200px";
+         }
+
+        </script>
+
+    </body>
+</html>
